@@ -6,10 +6,10 @@ on:
 
 jobs:
   greet:
-  env:
+    env:
       MY_ENV: "John Doe"
-  runs-on: ubuntu-latest
-  steps:
+    runs-on: ubuntu-latest
+    steps:
     - name: Greet the User
       run: echo "Hello World!"
     - name: Run a multi-line script
